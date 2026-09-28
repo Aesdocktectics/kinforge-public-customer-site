@@ -1,0 +1,28 @@
+{
+  "version": "1.6.0",
+  "slug": "public-customer-site",
+  "title": "Public Customer Website and Web App",
+  "audience": "Public visitors, free-account starters, customers, writers, social workers, genealogists, historians, roleplayers and RPG players",
+  "site": "KinForge Genealogy public customer site appgprj_6ab7ad5366848191b15daad51c904cb1",
+  "app": "Public web app and public downloads page",
+  "access": "Public landing page; sign-in only after Get Started or account actions",
+  "releaseSource": {
+    "ownerPullRequest": "https://github.com/Aesdocktectics/kinforge-genealogy-studio/pull/19",
+    "ownerBranch": "codex/kinforge-owner-1.6.0",
+    "manifest": "server/releaseManifest.ts",
+    "updateFolder": "Downloads/KinForge Genealogy Studio Supreme Suite/Updates/1.6.0"
+  },
+  "packages": [
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Apple-Silicon.dmg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Apple-Silicon.pkg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Intel.dmg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Intel.pkg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-x64-setup.exe",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-x64-portable.exe"
+  ],
+  "requirements": [
+    "Use the dynamic marketing/download landing page, not owner console",
+    "Expose 1.6.0 downloads and releases through public pages",
+    "Keep customer privacy, pricing, support and account flows public-safe"
+  ]
+}
